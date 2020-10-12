@@ -17,8 +17,8 @@ section
 {
     position: relative;
     min-height: 100vh;
-    background: url(images/banner.jpg);
-    /* background: url(images/rix.jpg); */
+    /* background: url(images/banner.jpg); */
+    background: url(images/rix.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -129,6 +129,7 @@ header ul li a
 .contentBx
 {
     padding-right: 30px;
+
 }
 
 .contentBx h3
@@ -145,4 +146,9 @@ header ul li a
 img
 {
     max-width: 100%;
+}
+
+#mina
+{
+    width: 400px;
 }
