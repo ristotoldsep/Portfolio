@@ -13,6 +13,11 @@ section
     padding: 100px; 
 }
 
+.initial
+{
+    color: #2196f3;
+}
+
 .banner
 {
     position: relative;
