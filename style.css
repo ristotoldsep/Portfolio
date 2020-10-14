@@ -73,7 +73,20 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.5s;
 }
+
+header.sticky
+{
+    background-color: #fff;
+    padding: 20px 100px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+header.sticky .logo{
+    color: #111; 
+}
+
 
 header .logo
 {
@@ -105,6 +118,12 @@ header ul li a
     margin: 0 15px;
     color: #fff;
 }
+
+header.sticky ul li a
+{
+    color: #111; 
+}
+
 
 .heading
 {
@@ -151,4 +170,112 @@ img
 #mina
 {
     width: 400px;
+    margin-left: 300px;
+}
+
+.services
+{
+    background-color: #111 ;
+}
+
+.heading.white
+{
+    color: #fff;
+}
+
+.services .content
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .servicesBx
+{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.services .content .servicesBx:hover
+{
+    background-color: #2196f3;
+}
+
+.services .content .servicesBx img
+{
+    max-width: 90px;
+    filter: invert(1);
+}
+
+.services .content .servicesBx h2
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.work .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work .content .workBx
+{
+    width: 50%;
+    padding: 20px;
+}
+
+.work .content .workBx img
+{
+    max-width: 100%;
+}
+
+.testimonial
+{
+    background-color: #f7f7f7;
+}
+
+.testimonial .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial .content .testimonialBx
+{
+    max-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background-color: #2196f3;
+}
+
+.testimonial .content .testimonialBx p
+{
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.testimonial .content .testimonialBx h3
+{
+    margin-top: 40px;
+    text-align: end;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.testimonial .content .testimonialBx h3 span
+{
+    font-size: 14px;
 }
