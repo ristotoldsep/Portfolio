@@ -67,7 +67,7 @@ h3 span.cursor {
   background-color: #ccc;
   margin-left: 0.1rem;
   width: 3px;
-  animation: blink 0.7s infinite;
+  animation: blink 0.9s infinite;
 }
 .container p span.cursor.typing {
   animation: none;
