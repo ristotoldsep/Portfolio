@@ -454,14 +454,14 @@ img
     color: #999;
 }
 
-/* .formBx form button
+.formBx form button
 {
-    max-width: 100px;
+    max-width: 200px;
     background-color: #2196f3;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
-} */
+}
 
 .contactInfo
 {
