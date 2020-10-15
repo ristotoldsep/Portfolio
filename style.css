@@ -93,6 +93,94 @@ h3 span.cursor {
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover
+{
+    color: rgba(200, 255, 255, 1);
+}
+
+.btn span 
+{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+
+.btn span:nth-child(1)
+{
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.btn:hover span:nth-child(1)
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.btn span:nth-child(2)
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.btn:hover span:nth-child(2)
+{
+    transform: scaleY(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.btn span:nth-child(3)
+{
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.btn:hover span:nth-child(3)
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.btn span:nth-child(4)
+{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.btn:hover span:nth-child(4)
+{
+    transform: scaleY(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
 }
 
 header
@@ -366,14 +454,14 @@ img
     color: #999;
 }
 
-.formBx form input[type="submit"]
+/* .formBx form button
 {
     max-width: 100px;
     background-color: #2196f3;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
+} */
 
 .contactInfo
 {
@@ -507,6 +595,7 @@ img
         padding: 10px 20px;
         font-size: 16px;
     }
+    
     .heading h2
     {
         font-size: 24px;
