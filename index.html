@@ -196,11 +196,12 @@
                 </div>
             </div>
             <div class="formBx">
-                <form id="contact-form" action="contact-form-handler.php" method="POST">
+                <form id="contact-form" method="POST" data-netlify="true">
                     <h3>Message Me</h3>
                     <input type="text" name="name" placeholder="Full Name" required>
                     <input type="email" name="email" placeholder="Email" required>
                     <textarea name="message" id="" cols="20" rows="10" placeholder="Your Message" required></textarea>
+                    <div data-netlify-recaptcha="true"></div>
                     <button type="submit" class="btn">
                         <span></span>
                         <span></span>
