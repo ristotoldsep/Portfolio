@@ -30,7 +30,7 @@ section
     /* background: url(images/banner.jpg); */
     background: url(images/rix.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
