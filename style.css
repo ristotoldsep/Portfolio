@@ -11,7 +11,7 @@
 
 section
 {
-    padding: 100px; 
+    padding: 80px 100px; 
 }
 
 .initial
@@ -55,6 +55,29 @@ section
     font-size: 3em;
     color: #fff;
     font-weight: 500;
+}
+
+h3 span.typed-text {
+  /*    font-weight: normal; */
+  /* color: #dd7732; */
+  color: #2196f3;
+}
+h3 span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 0.7s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
 
 .btn
@@ -182,16 +205,10 @@ img
     max-width: 100%;
 }
 
-/* #mina
-{
-    width: 400px;
-    margin-left: 300px;
-} */
-
 #mina
 {
+    margin-left: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-height: 70%;
 }
 
 .services
@@ -470,7 +487,7 @@ img
     }
     section
     {
-        padding: 100px 50px;
+        padding: 80px 50px;
     }
     .banner
     {
@@ -502,6 +519,13 @@ img
     {
         flex-direction: column;
     }
+
+    #mina
+    {
+        margin: 10px auto;
+        width: 100%;
+    }
+
     .w50
     {
         min-width: 50%;
@@ -546,6 +570,20 @@ img
     }
     section
     {
-        padding: 100px 20px;
+        padding: 40px 20px;
+    }
+
+    .w50
+    {
+        padding-bottom: 0;
+    }
+    .content
+    {
+        padding-bottom: 0;
+    }
+
+     #mina
+    {
+        
     }
 }
