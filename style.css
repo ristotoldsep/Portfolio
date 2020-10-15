@@ -487,7 +487,7 @@ img
     }
     section
     {
-        padding: 80px 50px;
+        padding: 90px 50px;
     }
     .banner
     {
@@ -584,6 +584,7 @@ img
 
      #mina
     {
-        
+        margin: 10px auto;
+        width: 100%;
     }
 }
