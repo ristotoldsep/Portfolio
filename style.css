@@ -243,13 +243,22 @@ header ul li a
     display: inline-block;
     margin: 0 15px;
     color: #fff;
+    transition: 0.5s;
+}
+header ul li a:hover
+{
+    color: #2196f3;
 }
 
 header.sticky ul li a
 {
-    color: #111; 
+    color: #111;
+    transition: 0.5s; 
 }
-
+header.sticky ul li a:hover
+{
+    color: #2196f3;
+}
 
 .heading
 {
