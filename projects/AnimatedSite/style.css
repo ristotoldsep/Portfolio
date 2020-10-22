@@ -218,6 +218,7 @@ header .logo
     flex-direction: column;
     z-index: 2; 
     /* so the text would be on top */
+    overflow: hidden;
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -240,7 +241,73 @@ header .logo
     color: #fff;
     text-decoration: none;
     font-size: 2em;
+    transition: 0.5s;
 }
+
+/* .menu:hover li a
+{
+    color: #0002;
+} */
+
+.menu li:hover a
+{
+    color: #000;
+    background: #fff;
+}
+
+.menu li a:before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 500px;
+    transition: letter-spacing 0.5s;
+}
+.menu li a:hover:before
+{
+    content: attr(data-text);
+    opacity: 1;
+    left: 50%;
+    letter-spacing: 10px;
+    width: 1800px;
+    height: 1800px;
+}
+/* .menu li:nth-child(6n+1) a:before
+{
+    background: #81ecec;
+}
+.menu li:nth-child(6n+2) a:before
+{
+    background: #ff7675;
+}
+.menu li:nth-child(6n+3) a:before
+{
+    background: #55efc4;
+}
+.menu li:nth-child(6n+4) a:before
+{
+    background: #a29bfe;
+}
+.menu li:nth-child(6n+5) a:before
+{
+    background: #fd79a8;
+}
+.menu li:nth-child(6n+6) a:before
+{
+    background: #ffeaa7;
+} */
 
 @media (max-width: 991px)
 {
