@@ -296,6 +296,39 @@ header.sticky ul li a:hover
 .w50
 {
     min-width: 50%;
+    text-align: center;
+}
+
+.links 
+{
+    text-align: center;
+    margin-top: 7px;
+}
+.links a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    margin: 15px;
+}
+.links a:hover
+{
+    color: #2196f3;
+}
+.links2 
+{
+    margin-top: 7px;
+}
+.links2 a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin: 15px;
+}
+.links2 a:hover
+{
+    color: #2196f3;
 }
 
 img
@@ -721,6 +754,7 @@ img
     {
         min-width: 50%;
         margin-bottom: 20px;
+        text-align: center;
     }
     .services .content .servicesBx
     {
@@ -747,10 +781,14 @@ img
         margin: 20px 0;
     }
     .work .content .card:hover span
-{
-    width: 1800px;
-    height: 1200px;
-}
+    {
+        width: 1800px;
+        height: 1200px;
+    }
+    .links2 
+    {
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px)
@@ -777,6 +815,7 @@ img
     .w50
     {
         padding-bottom: 0;
+        text-align: center;
     }
     .content
     {
@@ -787,5 +826,9 @@ img
     {
         margin: 10px auto;
         width: 100%;
+    }
+    .links2 
+    {
+        text-align: center;
     }
 }
