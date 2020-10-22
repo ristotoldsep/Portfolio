@@ -39,3 +39,18 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+
+/* CARD HOVER EFFECT */
+$(document).ready(() => {
+    $('.card').on('mouseenter', function (e) {
+        x = e.pageX - $(this).offset().left,
+            y = e.pageY - $(this).offset().top;
+        $(this).find('span').css({ top: y, left: x });
+    })
+    $('.card').on('mouseout', (e) => {
+        x = e.pageX - $(this).offset().left,
+            y = e.pageY - $(this).offset().top;
+        $(this).find('span').css({ top: y, left: x });
+    })
+})

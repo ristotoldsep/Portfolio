@@ -280,6 +280,7 @@ header.sticky ul li a:hover
     justify-content: space-between;
 }
 
+
 .contentBx
 {
     padding-right: 30px;
@@ -354,24 +355,115 @@ img
     font-weight: 600;
 }
 
+/* PROJECTS SECTION */
+
 .work .content
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.work .content .workBx
+/* .work .content .card
 {
     width: 50%;
     padding: 20px;
 }
 
-.work .content .workBx img
+.work .content .card img
 {
     max-width: 100%;
+} */
+
+.work .content .card
+{
+    position: relative;
+    width: 320px;
+    height: 420px;
+    margin: 15px;
+    overflow: hidden;
 }
 
+.work .content .card span
+{
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0.70;
+    background: #2196f3;
+    z-index: 1;
+    transition: width 0.5s, height 0.5s;
+}
+.work .content .card:hover span
+{
+    width: 1100px;
+    height: 1100px;
+}
+
+.work .content .card .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.work .content .card .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work .content .card .cardContent
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.work .content .card .cardContent div
+{
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.3s;
+}
+
+.work .content .card .cardContent div a
+{
+    color: #fff;
+    font-size: 35px;
+    margin:7px;
+}
+.work .content .card .cardContent div a:hover
+{
+    color: rgba(255,255,255,0.7);
+}
+
+.work .content .card:hover .cardContent div
+{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* ==================== */
+/* TESTIMONIAL */
 .testimonial
 {
     background-color: #f7f7f7;
@@ -525,6 +617,7 @@ img
     padding: 10px;
 }
 
+
 /* RESPONSIVE */
 
 @media (max-width: 991px)
@@ -633,10 +726,10 @@ img
     {
         margin: 10px;
     }
-    .work .content .workBx
+    .work .content .card
     {
-        width: 100%;
-        padding: 10px;
+        width: 90%;
+        /*  */padding: 10px;
     }
     .testimonial .content .testimonialBx
     {
@@ -653,6 +746,11 @@ img
     {
         margin: 20px 0;
     }
+    .work .content .card:hover span
+{
+    width: 1800px;
+    height: 1200px;
+}
 }
 
 @media (max-width: 600px)
@@ -669,6 +767,11 @@ img
     section
     {
         padding: 40px 20px;
+    }
+
+    .work .content .card
+    {
+        width: 90%;
     }
 
     .w50
