@@ -1,3 +1,5 @@
+// TEST TYPE EFFECT
+// ===========================
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
@@ -42,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () { // On DOM Load initi
 
 
 /* CARD HOVER EFFECT */
+// ===================================
 $(document).ready(() => {
     $('.card').on('mouseenter', function (e) {
         x = e.pageX - $(this).offset().left,
@@ -56,6 +59,7 @@ $(document).ready(() => {
 })
 
 // SCROLLBAR 
+// ====================
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function() {

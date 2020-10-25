@@ -8,6 +8,7 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
+/* SCROLL PROGRESSBAR */
 ::-webkit-scrollbar
 {
     width: 0;
@@ -64,18 +65,10 @@
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(10px);
 }
+/* SECTIONS */
 section
 {
     padding: 80px 100px; 
-}
-
-.initial
-{
-    color: #2196f3;
-}
-
-.initial:hover{
-    font-size: 28px;
 }
 
 .banner
@@ -115,24 +108,24 @@ section
 h3 span.typed-text {
   /*    font-weight: normal; */
   /* color: #dd7732; */
-  color: #2196f3;
+    color: #2196f3;
 }
 h3 span.cursor {
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 0.9s infinite;
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 0.9s infinite;
 }
 .container p span.cursor.typing {
-  animation: none;
+    animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
 }
 
 .btn
@@ -279,6 +272,15 @@ header .logo:hover{
     font-size: 26px;
 }
 
+.initial
+{
+    color: #2196f3;
+}
+
+/* .initial:hover{
+    font-size: 28px;
+} */
+
 header ul
 {
     position: relative;
@@ -389,6 +391,7 @@ header.sticky ul li a:hover
 img
 {
     max-width: 100%;
+    border: 1px solid gray;
 }
 
 #mina
