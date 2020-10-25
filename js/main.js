@@ -54,3 +54,11 @@ $(document).ready(() => {
         $(this).find('span').css({ top: y, left: x });
     })
 })
+
+// SCROLLBAR 
+let progress = document.getElementById('progressbar');
+let totalHeight = document.body.scrollHeight - window.innerHeight;
+window.onscroll = function() {
+    let progressHeight = (window.pageYOffset/totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+}
