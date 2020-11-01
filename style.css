@@ -546,7 +546,7 @@ img
 .testimonial .content
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -556,6 +556,11 @@ img
     padding: 60px 40px;
     margin: 20px;
     background-color: #2196f3;
+    transition: 0.5s;
+}
+.testimonial .content .testimonialBx:hover
+{
+    transform: scale(1.03);
 }
 
 .testimonial .content .testimonialBx p
