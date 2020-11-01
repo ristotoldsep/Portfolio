@@ -106,8 +106,6 @@ section
 }
 
 h3 span.typed-text {
-  /*    font-weight: normal; */
-  /* color: #dd7732; */
     color: #2196f3;
 }
 h3 span.cursor {
@@ -276,10 +274,6 @@ header .logo:hover{
 {
     color: #2196f3;
 }
-
-/* .initial:hover{
-    font-size: 28px;
-} */
 
 header ul
 {
@@ -454,17 +448,6 @@ img
     align-items: center;
     flex-wrap: wrap;
 }
-
-/* .work .content .card
-{
-    width: 50%;
-    padding: 20px;
-}
-
-.work .content .card img
-{
-    max-width: 100%;
-} */
 
 .work .content .card
 {
