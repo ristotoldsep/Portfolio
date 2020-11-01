@@ -391,7 +391,6 @@ header.sticky ul li a:hover
 img
 {
     max-width: 100%;
-    border: 1px solid gray;
 }
 
 #mina
@@ -511,6 +510,7 @@ img
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 1px solid gray;
 }
 .work .content .card .cardContent
 {
