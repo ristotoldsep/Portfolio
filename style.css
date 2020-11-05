@@ -366,6 +366,11 @@ header.sticky ul li a:hover
 {
     color: #2196f3;
 }
+.links img:hover
+{
+    background: #2196f3;
+}
+
 .links2 
 {
     margin-top: 7px;
@@ -380,6 +385,16 @@ header.sticky ul li a:hover
 .links2 a:hover
 {
     color: #2196f3;
+}
+
+.links2 img
+{
+    background: white;
+}
+
+.links2 img:hover
+{
+    background: #2196f3;
 }
 
 img
