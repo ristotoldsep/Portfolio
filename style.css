@@ -319,6 +319,8 @@ header.sticky ul li a:hover
     color: #111;
 }
 
+
+
 .heading h2
 {
     font-weight: 600;
@@ -418,6 +420,12 @@ img
     color: #fff;
 }
 
+/* Services sectoion */
+#services
+{
+    padding-bottom: 30px;
+}
+
 .services .content
 {
     display:flex;
@@ -455,6 +463,11 @@ img
 }
 
 /* PROJECTS SECTION */
+
+#projects 
+{
+    padding-bottom: 30px
+}
 
 .work .content
 {
@@ -605,6 +618,7 @@ img
 .contact
 {
     background-color: #111;
+    padding-bottom: 35px;
 }
 
 .formBx
@@ -651,11 +665,12 @@ img
 
 .formBx form button
 {
-    max-width: 200px;
+    max-width: 100%;
     background-color: #2196f3;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 0;
 }
 
 .contactInfo
