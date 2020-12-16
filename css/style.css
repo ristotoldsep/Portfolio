@@ -732,10 +732,17 @@ img
 @media (max-width: 991px) /* TABLET */
 {
     .banner
-    {
-       
-        background: url(../images/rix3.webp);
-    }
+{
+    position: relative;
+    min-height: 100vh;
+    background: url(../images/rix3.webp);
+    background-color: #111;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
     header, header.sticky
     {
         padding: 20px 50px;
@@ -893,6 +900,18 @@ img
 
 @media (max-width: 600px)
 {
+   .banner
+{
+    position: relative;
+    min-height: 100vh;
+    background: url(../images/rix3.webp);
+    background-color: #111;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
     header, header.sticky
     {
         padding: 20px;
