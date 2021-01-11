@@ -1,10 +1,14 @@
 //MENU JS
 
+// SCROLLBAR EFFECT
+// ===========================
 window.addEventListener("scroll", () => {
     const header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+// MOBILE MENU
+// ===========================
 function toggleMenu() {
     const menuToggle = document.querySelector(".toggle");
     const menu = document.querySelector(".menu");
@@ -12,7 +16,7 @@ function toggleMenu() {
     menu.classList.toggle("active");
 }
 
-// TEST TYPE EFFECT
+// TEXT TYPE EFFECT
 // ===========================
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
