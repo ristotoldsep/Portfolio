@@ -78,7 +78,7 @@ section
     background: url(../images/coverpiltt.jpg);
     background-color: #111;
     background-size: cover;
-    background-position: left;
+    background-position: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
