@@ -82,6 +82,10 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .banner h2
@@ -790,6 +794,10 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
     header, header.sticky
     {
@@ -959,6 +967,10 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
     header, header.sticky
     {
