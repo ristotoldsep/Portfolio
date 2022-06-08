@@ -958,10 +958,9 @@ img
 {
    .banner
 {
-    position: relative;
+    
     min-height: 100vh;
-    width: 100vw !important;
-    background: url(../images/rix2.webp);
+    background: url(../images/coverpiltt.jpg);
     background-color: #111;
     background-size: cover;
     background-position: center;
@@ -971,7 +970,7 @@ img
     background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         padding: 150px 20px 100px;
 }
     header, header.sticky
