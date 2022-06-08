@@ -971,7 +971,7 @@ img
     background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         padding: 150px 20px 100px;
 }
     header, header.sticky
