@@ -794,10 +794,9 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-attachment: fixed;
-        background-position: center;
+    
         background-repeat: no-repeat;
-        background-size: cover;
+       
 }
     header, header.sticky
     {
@@ -961,16 +960,16 @@ img
     
     min-height: 100vh;
     background: url(../images/coverpiltt.jpg);
-    background-color: #111;
+    background-color: rgb(246, 211, 211);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-attachment: fixed;
-        background-position: center;
+    
+        
         background-repeat: no-repeat;
-        background-size: cover;
+        
         padding: 150px 20px 100px;
 }
     header, header.sticky
